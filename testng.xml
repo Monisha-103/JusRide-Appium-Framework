@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="JusRide Appium Suite">
+    <test name="JusRide User Flows">
+        <classes>
+            <class name="Test_Appium.CreateProfileTest"/>
+            <class name="Test_Appium.HomeServiceTest"/>
+            <class name="Test_Appium.JBCPickupServiceTest"/>
+            <class name="Test_Appium.UserDropServiceTest"/>
+            <class name="Test_Appium.ActivateAMCFlowTest"/>
+            <class name="Test_Appium.WarrantyRegistrationTest"/>
+            <class name="Test_Appium.CreatePlanTest"/>
+            <class name="Test_Appium.CreateGroupTest"/>
+            <class name="Test_Appium.LogoutTest"/>
+            <class name="Test_Appium.LoginTest"/>
+            <class name="Test_Appium.ConnectStravaTest"/>
+            <class name="Test_Appium.SearchMaheTest"/>
+            <class name="Test_Appium.LssTest"/>
+        </classes>
+    </test>
+</suite>

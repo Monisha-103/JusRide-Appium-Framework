@@ -1,0 +1,7 @@
+.idea/
+*.iml
+target/
+build/
+out/
+src/test/resources/appium/test-data.properties
+*.log
